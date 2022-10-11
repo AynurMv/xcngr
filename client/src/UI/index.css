@@ -1,0 +1,46 @@
+.logoText {
+    font-family: 'Rubik', sans-serif;    
+    font-weight: 700;
+    color: rgb(50, 119, 255);
+}
+
+div {
+    color: #3277ff;
+    color: #3277ff;
+}
+
+.css-1slvrkx-MuiPaper-root-MuiAppBar-root {
+    /* border-bottom-left-radius: 1rem; */
+    /* border-bottom-right-radius: 1rem; */
+    z-index: 8;
+}
+
+.day {
+    width: 1rem;
+}
+
+.lint-prodyct {
+    font-family: 'Rubik', sans-serif;    
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.opasiti {
+    height: 100vh;
+    width: 100%;
+    background-color: #0000006e;    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+.opasiti2 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}

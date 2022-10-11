@@ -1,0 +1,34 @@
+.btn {
+    margin: 2vh;
+    width: 40vh
+}
+
+.next {
+    height: 10vh
+}
+
+.loader {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatarImg {
+    width: 20vh;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 20vh;
+    margin: 3vh;
+}
+
+:root {
+	--stars: 20; /* How many stars are there */
+	--votes: 20; /* How many people have voted? */
+	--score: 70; /* ...out of (stars * votes) */
+}
+
+/* .navbar {
+    display: flex;
+    width: 100%;
+    justify-content: center
+} */

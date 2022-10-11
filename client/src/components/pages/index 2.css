@@ -1,0 +1,82 @@
+/* MAIN button */
+
+.border-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 80px;    
+    margin: 10px 20px;
+    position: relative;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, .4);
+    background: none;
+    font-weight: 200;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  .border-button:before, .border-button:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  .border-button:before {
+    bottom: 0;
+    left: 0;
+    border-left: 2px solid #3277ff;;
+    border-top: 2px solid #3277ff;;
+    transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+  }
+  .border-button:after {
+    top: 0;
+    right: 0;
+    border-right: 2px solid #3277ff;;
+    border-bottom: 2px solid #3277ff;;
+    transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
+  }
+  .border-button:hover:before, 
+  .border-button:hover:after {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  .border-button:hover:before {
+    transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+  }
+  .border-button:hover:after {
+    transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+  }
+  .border-button:hover {
+    background: rgb(50, 119, 255, .1);
+    /* background: rgba(255, 255, 255, .2); */
+  }
+
+  .btn-padding {
+    padding: 20px 116px;
+  }
+
+  /* .first-screen-profile__photo {
+    width: 360px;
+    height: 420px;
+    border-radius: 3rem;
+  } */
+
+  .first-screen-profile__rightblock-photo {
+    width: 50px;
+  }
+
+  .updateForm {
+    width: 700px;
+    padding-right: 100px;
+  }
+
+  .updateForm__btn {
+    margin-left: 8px;
+    width: 300px;
+  }
+
+  .updateForm__Btn {
+    width: 300px;
+  }
